@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <title>JAVASCRIPT ASSIGNMENT</title>
+</head>
+<!-- <script>
+        alert("Welcome to  your website");
+    </script> -->
+
+<body>
+
+    <script src="Assignment 3.JS"></script>
+
+    <script>
+        var num;
+        document.write("value after the variable declaration is " + num + "<br>");
+        num = 2;
+        document.write("Initial value: " + num + "<br>");
+        num++;
+        document.write("value after increament is: " + num + "<br>");
+        num = num + 7;
+        document.write("value after addition is: " + num + "<br>");
+        num--;
+        document.write("value after decreament is: " + num + "<br>")
+        num = num % 2;
+        document.write("The remainder is: " + num + "<br>");
+
+
+        var TicketPrice = 500;
+        var costbuy = 7;
+        var calculate = TicketPrice * costbuy;
+        document.write("Total cost to buy " + costbuy + " tickets to a movie is " + calculate + "<br>" + "<br>");
+
+        for (var i = 1; i <= 10; i++) {
+            document.write("4 * " + i + " = " + (4 * i) + "<br>");
+        }
+
+        var celsius = 25;
+        var fehrenheit = (celsius * 9 / 5) + 32;
+        document.write(celsius + "&deg;C is " + fehrenheit + "&deg;F" + "<br>");
+
+
+        var fehrenheit = 25;
+        var celsius = (fehrenheit - 32) * 5 / 9;
+        document.write(fehrenheit + "&deg;F is " + celsius + "&deg;C" + "<br>" + "<br>");
+
+
+        var PriceOfitem1 = 650;
+        var PriceOfitem2 = 100;
+        var QuantityOfitem1 = 3;
+        var QuantityOfitem2 = 7;
+        var Scharges = 100;
+        var Totalcost = (PriceOfitem1 * QuantityOfitem1) + (PriceOfitem2 * QuantityOfitem2) + Scharges;
+        document.write("Price of itme 1 is " + PriceOfitem1 + "<br>")
+        document.write("Quantity of item 1 is " + QuantityOfitem1 + "<br>")
+        document.write("Price of itme 2 is " + PriceOfitem2 + "<br>")
+        document.write("Quantity of item 2 is " + QuantityOfitem2 + "<br>")
+        document.write("Shipping charges is " + Scharges + "<br>")
+
+
+        document.write("Total cost of your order is " + Totalcost + "<br>")
+
+
+        var TotalMarks = 1100;
+        var MarksObtained = 804;
+        var result = (MarksObtained / TotalMarks) * 100;
+        document.write("<h1> MARK SHEET </h1>" + "<br>")
+        document.write("Total Marks: " + TotalMarks + "<br>")
+        document.write("Obtained marks: " + MarksObtained + "<br>")
+        document.write("Percentage: " + result + "<br>" + "<br>")
+
+
+
+        var num = 5;
+        document.write("value is " + num + "<br>")
+        num = num + 5;
+        document.write("After added " + num + "<br>")
+        num = num * 10;
+        document.write("Multiplied by 1o: " + num + "<br>")
+        num = num / 2;
+        document.write("Result(100) is divided by 2 is: " + num + "<br>" + "<br>")
+
+
+
+        var CurrentYear = 2026;
+        var BirthYear = 2008;
+        var age1 = CurrentYear - BirthYear;
+        var age2 = age1 - 1;
+
+        document.write("Your age is: " + age1 + "<br>")
+        document.write("or Your age is: " + age2 + "<br>" + "<br>")
+
+
+
+        var Favsnack = "Chips"
+        var Currentage = 19;
+        var Maxage = 65;
+        var AmuntOfsnack = 3;
+        var total = Currentage * AmuntOfsnack;
+        document.write(" <h1> The Life Time Supply Calculator </h1>" + "<br>")
+        document.write("Favourite snack: " + Favsnack + "<br>")
+        document.write("Current Age: " + Currentage + "<br>")
+        document.write("Estimate max age: " + Maxage + "<br>")
+        document.write("Amount of snack per day: " + AmuntOfsnack + "<br>")
+        document.write("You will need " + total + " chips to last you until the ripe old age of 65" + "<br>" + "<br>")
+
+
+        var num = 10;
+        document.write("Result:" + "<br>" + "The value of a is: " + num + "<br>")
+        document.write("---------------------------------------------------" + "<br>" + "<br>")
+        num = ++num;
+        document.write("The value of ++a is: " + num + "<br>")
+        document.write("Now the value of a is: " + num + "<br>" + "<br>")
+        num = num++;
+        document.write("The value of a++ is: " + num + "<br>")
+        num = ++num;
+        document.write("Now the value of a is: " + num + "<br>" + "<br>")
+        num = --num;
+        document.write("The value of --a is: " + num + "<br>")
+        document.write("Now the value of a is: " + num + "<br>" + "<br>")
+        num = num--;
+        document.write("The value of a-- is: " + num + "<br>")
+        num = --num;
+        document.write("Now the value of a is: " + num + "<br>" + "<br>" + "<br>")
+
+
+        var a = 2, b = 1;
+        var Result = --a;
+        document.write("--a is " + Result + "<br>")
+        var Result = --a - --b;
+        document.write("--a - --b is " + Result + "<br>")
+        var Result = --a - --b + ++b;
+        document.write("--a - --b + ++b is " + Result + "<br>")
+        var Result = --a - --b + ++b + b--;
+        document.write("--a - --b + ++b + b-- is " + Result + "<br>" + "<br>")
+
+
+      
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+    <!-- <script>
+        document.write("Yah! i can write HTML content through JS");
+    </script> -->
+
+    <!-- <script>
+        document.write("My birth year is " + BirthYear  + "<br>"); 
+        document.write("Data type of my decalred variable is number");
+    </script> -->
+
+
+    <!-- <script>
+        alert("Welcome to your website");
+    </script> -->
+
+    <!--             
+    <script>
+        document.write("Error! Please enter a valid password <br>");
+    </script>
+
+
+
+    <script>
+        document.write("Welcome to JS land... <br> Happy Coding!"); 
+    </script>
+
+  
+
+    <script>
+        document.write("Welcome to JS land... <br>");
+    </script>
+
+    <script>
+        document.write("Happy Coding!");
+    </script>
+ -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let arr = [[]];  2D ARRAY
+
+        let Matrix = [
+            [0,1,2,3],
+            [1,0,1,2],
+            [2,1,0,1]
+        ];
+
+        for(let i = 0; i < Matrix.length; i++){
+              document.write(Matrix[i].join("") + "<br>" + "<br>");
+        }
+       
+        // for(let i = 0; i <= 10; i++){
+        //     document.write(i + "<br>" + "<br>");
+        // }
+
+        // let num = Number(prompt("Enter a number:"));      //TABLE
+        // let length = Number(prompt("Enter length:"));
+        // for(let i = 1; i <= length; i++){
+        //     document.write(num + "*" + i + "=" + (num * i) + "<br>");
+        // }
+
+        var Fruits = ["Apple", "Banana", "Orange", " Strawberry", "Mango"];
+        for(var i = 0; i < Fruits.length; i++){
+            document.write("Element at " + i + " index is " + Fruits[i] + "<br>"); 
+            
+
+        }
+     document.write("<br><br>");
+         
+
+        document.write("Forward: ");
+    for(let i = 1; i <= 15; i++){
+        document.write(i + " ");
+    }
+     document.write("<br><br>");
+
+        document.write("Reverse: ");
+
+     for(let i = 15; i >= 1; i--){
+        document.write(i + " ");
+    }
+
+     document.write("<br><br>");
+    
+        document.write("Even: ");
+     for(let i = 0; i <= 20; i += 2){
+        document.write(i + " ");
+    }
+
+       document.write("<br><br>");
+    
+        document.write("Odd: ");
+     for(let i = 1; i <= 20; i += 2){
+        document.write(i + " ");
+    }
+
+       document.write("<br><br>");
+    
+        document.write("Series: ");
+     for(let i = 2; i <= 20; i += 2){
+        document.write(i + "k ");
+    }
+
+    document.write("<br><br>");
+
+  var bakeryItems = ["cake", "applepie", "cookies", "chips", "pastry"];
+
+var userInput = prompt("What do you want?");
+
+var index = bakeryItems.indexOf(userInput);
+
+if (index >= 0) {
+    document.write("Yes, " + userInput + " is available at index " + index);
+} else {
+    document.write("Sorry, " + userInput + " is not available.");
+}
+    
+    
+
+    
+
+    
+
+    </script>
+</body>
+</html>
